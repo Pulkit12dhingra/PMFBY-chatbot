@@ -1,7 +1,7 @@
 # Pradhan Mantri Fasal Beema Yojna Chatbot
 The govenrnment of India's initiative Pradhan mantri Fasal Beema Yojna is a policy to give insurance to the farmers for their crops. There is a complete registeration process which may cause confusion. To solve this I created a chatbot which would help the users of the yojna in the registeration process if the face any issue.
 
-![top_5_rows](/main screen.jpg)
+![screen](/main.jpg)
 
 # Data Acquisition:
 The data that I used in the chatbot is custom-developed by me. I used a JSON file format to store the data, then load it into the python file using the JSON module. 
@@ -47,7 +47,9 @@ Our model will have four layers with an Input layer as our initial layer, next, 
 <li> LSTM:- LSTM stands for Long Short Term Memory is a built-in RNN layer in Tensorflow. An LSTM layer allows our network to persist information by looping over previous events. This adds to the accuracy of the model and the ability to make correct predictions.
 <li> Dense:- The final layer of the model is the dense layer, We use softmax activation with the dimensions of our output shape so as to get as many nodes as there are tags.
 </ul>
-![top_5_rows](/main screen.jpg)
+
+![screen](/main.jpg)
+
 # Deployment:
 
 After building and saving the model using the model.save() in a .h5 format, we'll use HTML and CSS to create a front end of our project. It uses aspects of JS as well to get the chatbot interphase appeal. Finally, we'll connect our front end with a back end. For this, we'll make use of the Flask framework. We'll create a function to handle the requests from the front end that will basically get the text using a GET request and preprocess that text as we did earlier(apply tokenization and padding then send to our model for prediction of the labels. Finally, our backend will send a valid response to our frontend using the dictionary we created earlier related to tags and responses. A random response will be sent to the front end out of all available responses. We'll have the interphase ready like this:-
