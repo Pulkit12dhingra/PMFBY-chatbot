@@ -48,11 +48,12 @@ Our model will have four layers with an Input layer as our initial layer, next, 
 <li> Dense:- The final layer of the model is the dense layer, We use softmax activation with the dimensions of our output shape so as to get as many nodes as there are tags.
 </ul>
 
-![screen](/main.jpg)
+
 
 # Deployment:
 
 After building and saving the model using the model.save() in a .h5 format, we'll use HTML and CSS to create a front end of our project. It uses aspects of JS as well to get the chatbot interphase appeal. Finally, we'll connect our front end with a back end. For this, we'll make use of the Flask framework. We'll create a function to handle the requests from the front end that will basically get the text using a GET request and preprocess that text as we did earlier(apply tokenization and padding then send to our model for prediction of the labels. Finally, our backend will send a valid response to our frontend using the dictionary we created earlier related to tags and responses. A random response will be sent to the front end out of all available responses. We'll have the interphase ready like this:-
 
+![screen](/main.jpg)
 
 [Go to the top](https://github.com/Pulkit12dhingra/PMFBY-chatbot)
