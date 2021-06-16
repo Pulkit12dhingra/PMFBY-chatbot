@@ -1,5 +1,7 @@
 # Pradhan Mantri Fasal Beema Yojna Chatbot
-The govenrnment of India's initiative Pradhan mantri Fasal Beema Yojna is a policy to give insurance to the farmers for their crops. There is a complete registeration process which may cause confusion. To solve this I created a chatbot which would help the users of the yojna in the registeration process if the face any issue.
+The Government of India's initiative Pradhan Mantri Fasal Beema Yojna is a policy to give insurance to the farmers for their crops. 
+To apply for the scheme, farmers have to register themselves on the official web portal. It may be a complicated process for the farmers.
+To solve this issue, I created a web-based helping chatbot that would help the users of the scheme in the registration process if they face any problems.
 
 ![screen](/main.jpg)
 
